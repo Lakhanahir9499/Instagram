@@ -20,6 +20,23 @@
       max-width: 400px;
       margin: auto;
     }
+    .username-block {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 12px;
+    }
+    .username {
+      font-size: 16px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .verified {
+      width: 14px;
+      height: 14px;
+    }
     .top-row {
       display: flex;
       align-items: center;
@@ -39,23 +56,6 @@
     }
     .stats div {
       text-align: center;
-    }
-    .username-block {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-top: 12px;
-    }
-    .username {
-      font-size: 16px;
-      font-weight: 600;
-      display: flex;
-      align-items: center;
-      gap: 5px;
-    }
-    .verified {
-      width: 14px;
-      height: 14px;
     }
     .name {
       font-size: 14px;
@@ -97,16 +97,17 @@
 </head>
 <body>
   <div class="profile">
-    <div class="top-row">
-      <img src="profile.jpg" alt="Lakhan DP" class="dp">
-      <div class="stats">
-        <div><strong>14</strong><br>posts</div>
-        <div><strong>639</strong><br>followers</div>
-        <div><strong>548</strong><br>following</div>
-      </div>
-    </div><div class="username-block">
-  <div class="username">lakhan_lakhnotra <img src="verified.svg" alt="Verified" class="verified"></div>
+    <div class="username-block">
+      <div class="username">lakhan_lakhnotra <img src="verified.svg" alt="Verified" class="verified"></div>
+    </div><div class="top-row">
+  <img src="profile.jpg" alt="Lakhan DP" class="dp">
+  <div class="stats">
+    <div><strong>14</strong><br>posts</div>
+    <div><strong>639</strong><br>followers</div>
+    <div><strong>548</strong><br>following</div>
+  </div>
 </div>
+
 <div class="name">Lakhan Ahir</div>
 
 <div class="bio">
