@@ -40,6 +40,12 @@
     .stats div {
       text-align: center;
     }
+    .username-block {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 12px;
+    }
     .username {
       font-size: 16px;
       font-weight: 600;
@@ -69,11 +75,12 @@
       gap: 8px;
       margin-top: 10px;
     }
-    .actions button {
+    .actions a {
       flex: 1;
       padding: 6px 0;
       font-size: 14px;
-      border: none;
+      text-align: center;
+      text-decoration: none;
       border-radius: 8px;
       cursor: pointer;
     }
@@ -97,8 +104,8 @@
         <div><strong>639</strong><br>followers</div>
         <div><strong>548</strong><br>following</div>
       </div>
-    </div><div class="username" style="margin-top: 12px;">
-  lakhan_lakhnotra <img src="verified.svg" alt="Verified" class="verified">
+    </div><div class="username-block">
+  <div class="username">lakhan_lakhnotra <img src="verified.svg" alt="Verified" class="verified"></div>
 </div>
 <div class="name">Lakhan Ahir</div>
 
@@ -110,8 +117,8 @@
 </div>
 
 <div class="actions">
-  <button class="follow">Follow</button>
-  <button class="message">Message</button>
+  <a href="https://www.instagram.com/lakhan_lakhnotra" target="_blank" class="follow">Follow</a>
+  <a href="https://www.instagram.com/lakhan_lakhnotra" target="_blank" class="message">Message</a>
 </div>
 
   </div>
